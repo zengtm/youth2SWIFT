@@ -1,2 +1,4 @@
+__________________address________________|_physical________________________________|sec|_d_|_size____|_permissions____________________|_glb|_shr|_pageflags_(remapped)___________|
+     C:FFFFF80000000000--FFFFF8010B7FFFFF|                                         |   |   |         |                                |    |    |                                |
      C:FFFFF8010B800000--FFFFF8010B800FFF|     I:00000000FE1B7000--00000000FE1B7FFF| ns|   | 00001000| P:readonly  U:noaccess  notexec| yes| inn| write-back/read-write-allocate |
      C:FFFFF8010B801000--FFFFF8010B801FFF|     I:00000000FE1B6000--00000000FE1B6FFF| ns|   | 00001000| P:readwrite U:noaccess  notexec| yes| inn| write-back/read-write-allocate |

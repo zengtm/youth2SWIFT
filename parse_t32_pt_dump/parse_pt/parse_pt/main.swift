@@ -1,3 +1,4 @@
+
 //
 //  main.swift
 //  parse_pt
@@ -6,7 +7,10 @@
 //  Copyright © 2016 Thomas M Zeng. All rights reserved.
 //
 
-import Foundation
 
-print("Hello, World!")
+
+let default_file = "/Users/tomzeng/Github/youth2SWIFT/parse_t32_pt_dump/parse_pt/parse_pt/input.txt"
+// btw, how to specify file from commandline?
+
+var rc = parse_pt_file(default_file)
 

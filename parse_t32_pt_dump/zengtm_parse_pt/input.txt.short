@@ -1,0 +1,2 @@
+     C:010B800000--010B800FFF|     I:00000000FE1B7000--00000000FE1B7FFF| ns|   | 00001000| P:readonly  U:noaccess  notexec| yes| inn| write-back/read-write-allocate |
+     C:010B801000--010B801FFF|     I:00000000FE1B6000--00000000FE1B6FFF| ns|   | 00001000| P:readwrite U:noaccess  notexec| yes| inn| write-back/read-write-allocate |
