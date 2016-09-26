@@ -36,6 +36,40 @@ class FirstDemoTests: XCTestCase {
         XCTAssertEqual(b,8192,"End addr should be 4096")
     }
     
-
+    func testmyStrtoul () {
+        
+        let viewC = ViewController()
+        let str = "0"
+        
+        let (rc, a) = viewC.myStrtoul(str)
+        
+        XCTAssertEqual (rc, true, "should return true")
+        XCTAssertEqual (a,0, "should be 0")
+        
+    }
+    
+    func testmyStrtoul1 () {
+        
+        let viewC = ViewController()
+        let str = "b"
+        
+        let (rc, a) = viewC.myStrtoul(str)
+        
+        XCTAssertEqual (rc, true, "should return true")
+        XCTAssertEqual (a,11, "should be 11")
+        
+    }
+    
+    func testmyStrtoul2 () {
+        
+        let viewC = ViewController()
+        let str = "10"
+        
+        let (rc, a) = viewC.myStrtoul(str)
+        
+        XCTAssertEqual (rc, true, "should return true")
+        XCTAssertEqual (a,16, "should be 16")
+        
+    }
     
 }
