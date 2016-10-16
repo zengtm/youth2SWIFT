@@ -68,7 +68,7 @@ class ViewController: UIViewController {
             case "d": return (13)
             case "e": return (14)
             case "f": return (15)
-        default: return (0)
+        default: return (-1)
             
         }
     }
@@ -78,7 +78,7 @@ class ViewController: UIViewController {
         if exp == 0 {
             return 1
         }
-        for _ in 0...exp {
+        for _ in 1...exp {
             y = y*base
         }
         
@@ -99,6 +99,25 @@ class ViewController: UIViewController {
         }
         
         return(true,x)
+    }
+    
+    func nestedLoops(n : Int) -> Int {
+        for i in 0...n {
+            var tmp : String = ""
+            for j in 0...n {
+                if j < n {
+                    tmp = tmp + "(\(i),\(j))\t" + ", "
+                }
+                
+                else {
+                    tmp = tmp + "(\(i),\(j))\t"
+                    
+                }
+            }
+            print (tmp)
+        }
+        
+        return (1)
     }
 
 }

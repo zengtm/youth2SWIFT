@@ -37,7 +37,6 @@ class FirstDemoTests: XCTestCase {
     }
     
     func testmyStrtoul () {
-        
         let viewC = ViewController()
         let str = "0"
         
@@ -70,6 +69,14 @@ class FirstDemoTests: XCTestCase {
         XCTAssertEqual (rc, true, "should return true")
         XCTAssertEqual (a,16, "should be 16")
         
+    }
+    
+    func testNestedLoops () {
+        let viewC = ViewController()
+        
+        let rc = viewC.nestedLoops(10)
+        
+        XCTAssertEqual(rc, 1, "should return 1")
     }
     
 }
