@@ -35,5 +35,100 @@
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FirstDemo/FirstDemo/ViewController.swift"
+            timestampString = "498371097.356036"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "130"
+            endingLineNumber = "130"
+            landmarkName = "nestedLoopsWhile(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FirstDemo/FirstDemoTests/FirstDemoTests.swift"
+            timestampString = "498370771.628266"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "86"
+            endingLineNumber = "86"
+            landmarkName = "testNestedLoopsWhile()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FirstDemoTests.FirstDemoTests.testNestedLoopsWhile () -&gt; ()"
+                  moduleName = "FirstDemoTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tomzeng/Swift/youth2SWIFT/parse_t32_pt_dump/FirstDemo/FirstDemoTests/FirstDemoTests.swift"
+                  timestampString = "498371233.658393"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "86"
+                  endingLineNumber = "86"
+                  offsetFromSymbolStart = "93">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FirstDemoTests.FirstDemoTests.(testNestedLoopsWhile () -&gt; ()).(implicit closure #2)"
+                  moduleName = "FirstDemoTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tomzeng/Swift/youth2SWIFT/parse_t32_pt_dump/FirstDemo/FirstDemoTests/FirstDemoTests.swift"
+                  timestampString = "498371233.662466"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "86"
+                  endingLineNumber = "86"
+                  offsetFromSymbolStart = "13">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FirstDemoTests.FirstDemoTests.(testNestedLoopsWhile () -&gt; ()).(implicit closure #3)"
+                  moduleName = "FirstDemoTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tomzeng/Swift/youth2SWIFT/parse_t32_pt_dump/FirstDemo/FirstDemoTests/FirstDemoTests.swift"
+                  timestampString = "498371233.666934"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "86"
+                  endingLineNumber = "86"
+                  offsetFromSymbolStart = "4">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FirstDemo/FirstDemo/ViewController.swift"
+            timestampString = "498371097.356036"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "133"
+            endingLineNumber = "133"
+            landmarkName = "nestedLoopsWhile(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>

@@ -74,7 +74,7 @@ class FirstDemoTests: XCTestCase {
     func testNestedLoops () {
         let viewC = ViewController()
         
-        let rc = viewC.nestedLoops(10)
+        let rc = viewC.nestedLoops(2)
         
         XCTAssertEqual(rc, 1, "should return 1")
     }
@@ -82,7 +82,7 @@ class FirstDemoTests: XCTestCase {
     
     func testNestedLoopsWhile(){
         let viewC = ViewController()
-        let rc = viewC.nestedLoopsWhile(10)
+        let rc = viewC.nestedLoopsWhile(2)
         XCTAssertEqual(rc, 1, "should return 1")
         
         

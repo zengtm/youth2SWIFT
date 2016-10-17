@@ -21,9 +21,9 @@ class ViewController: UIViewController {
     }
     
     
-    func colon_dash_parse(t : String) -> (code: Bool, b: UInt, e: UInt) {
+    func colon_dash_parse(_ t : String) -> (code: Bool, b: UInt, e: UInt) {
         //let m = NSCharacterSet(charactersInString: "--")
-        var fields = t.componentsSeparatedByCharactersInSet(NSCharacterSet(charactersInString:"--"))
+        var fields = t.components(separatedBy: CharacterSet(charactersIn:"--"))
         //print(fields);
         if (fields.count < 3)
         { return (false, 0, 0) }
@@ -31,8 +31,8 @@ class ViewController: UIViewController {
         //print(tokens)
         //print(fields);
         let e = strtoul(fields[2], nil, 16);
-        let colon = NSCharacterSet(charactersInString: ":")
-        var toks = fields[0].componentsSeparatedByCharactersInSet(colon)
+        let colon = CharacterSet(charactersIn: ":")
+        var toks = fields[0].components(separatedBy: colon)
         //print(toks)
         var b : UInt = 0
         if (toks.count > 1){
@@ -45,7 +45,7 @@ class ViewController: UIViewController {
         
     }
     
-    func myHex (c: Character) -> Int {
+    func myHex (_ c: Character) -> Int {
         switch c {
             case "0":
                 return (0)
@@ -73,7 +73,7 @@ class ViewController: UIViewController {
         }
     }
     
-    func myPow(base:Int, exp:Int) -> Int {
+    func myPow(_ base:Int, exp:Int) -> Int {
         var y:Int = 1
         if exp == 0 {
             return 1
@@ -85,7 +85,7 @@ class ViewController: UIViewController {
          return(y)
     }
     
-    func myStrtoul (t: String) -> (code: Bool, b: Int) {
+    func myStrtoul (_ t: String) -> (code: Bool, b: Int) {
         // 1. break string into characters	
      
         let chars = [Character](t.characters)
@@ -93,7 +93,7 @@ class ViewController: UIViewController {
         var x:Int = 0;
         
         
-        for n in (0...(chars.count-1)).reverse() {
+        for n in (0...(chars.count-1)).reversed() {
             let u = myHex(chars[n]);
             x = x+u*myPow(16,exp: chars.count-n-1)
         }
@@ -101,7 +101,7 @@ class ViewController: UIViewController {
         return(true,x)
     }
     
-    func nestedLoops(n : Int) -> Int {
+    func nestedLoops(_ n : Int) -> Int {
         for i in 0...n {
             var tmp : String = ""
             for j in 0...n {
@@ -119,18 +119,19 @@ class ViewController: UIViewController {
         
         return (1)
     }
-    func nestedLoopsWhile(n : Int) -> Int {
+    func nestedLoopsWhile(_ n : Int) -> Int {
         var tmp : String = ""
-        var j = 0
         var i = 0
         repeat {
+            tmp = "\0"
+            var j = 0
             i = i + 1
-            j = j + 1
             repeat {
+                j = j + 1
                 tmp = tmp + "(\(i),\(j))\t" + ", "
-            } while (i<=n)
+            } while (j<n)
             print(tmp)
-        } while (j<=n)
+        } while (i<n)
     return(1)
     }
     
