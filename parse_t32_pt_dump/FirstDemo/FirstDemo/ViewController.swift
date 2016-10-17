@@ -86,7 +86,7 @@ class ViewController: UIViewController {
     }
     
     func myStrtoul (t: String) -> (code: Bool, b: Int) {
-        // 1. break string into characters
+        // 1. break string into characters	
      
         let chars = [Character](t.characters)
         
@@ -119,5 +119,19 @@ class ViewController: UIViewController {
         
         return (1)
     }
-
+    func nestedLoopsWhile(n : Int) -> Int {
+        var tmp : String = ""
+        var j = 0
+        var i = 0
+        repeat {
+            i = i + 1
+            j = j + 1
+            repeat {
+                tmp = tmp + "(\(i),\(j))\t" + ", "
+            } while (i<=n)
+            print(tmp)
+        } while (j<=n)
+    return(1)
+    }
+    
 }

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FirstDemo/FirstDemoTests/FirstDemoTests.swift"
+            timestampString = "495952894.141289"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1"
+            endingLineNumber = "1">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FirstDemoTests.FirstDemoTests.__deallocating_deinit"
+                  moduleName = "FirstDemoTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/appleimac/adong/youth2SWIFT/parse_t32_pt_dump/FirstDemo/FirstDemoTests/FirstDemoTests.swift"
+                  timestampString = "496555867.69085"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FirstDemoTests.FirstDemoTests.init (invocation : Swift.Optional&lt;__ObjC.NSInvocation&gt;) -&gt; FirstDemoTests.FirstDemoTests"
+                  moduleName = "FirstDemoTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/appleimac/adong/youth2SWIFT/parse_t32_pt_dump/FirstDemo/FirstDemoTests/FirstDemoTests.swift"
+                  timestampString = "496555867.691501"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "65">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FirstDemoTests.FirstDemoTests.init (selector : ObjectiveC.Selector) -&gt; FirstDemoTests.FirstDemoTests"
+                  moduleName = "FirstDemoTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/appleimac/adong/youth2SWIFT/parse_t32_pt_dump/FirstDemo/FirstDemoTests/FirstDemoTests.swift"
+                  timestampString = "496555867.692061"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "65">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FirstDemoTests.FirstDemoTests.init () -&gt; FirstDemoTests.FirstDemoTests"
+                  moduleName = "FirstDemoTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/appleimac/adong/youth2SWIFT/parse_t32_pt_dump/FirstDemo/FirstDemoTests/FirstDemoTests.swift"
+                  timestampString = "496555867.69251"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "53">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FirstDemo/FirstDemo/ViewController.swift"
+            timestampString = "496556862.937033"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "98"
+            endingLineNumber = "98"
+            landmarkName = "myStrtoul(_:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FirstDemo/FirstDemo/ViewController.swift"
+            timestampString = "498365964.159416"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "137"
+            endingLineNumber = "137"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FirstDemo/FirstDemoTests/FirstDemoTests.swift"
+            timestampString = "497159288.236826"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "testmyStrtoul()"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FirstDemo/FirstDemoTests/FirstDemoTests.swift"
+            timestampString = "497159226.30468"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "67"
+            endingLineNumber = "67"
+            landmarkName = "testmyStrtoul2()"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FirstDemo/FirstDemoTests/FirstDemoTests.swift"
+            timestampString = "498289910.342232"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "89"
+            endingLineNumber = "89"
+            landmarkName = "testNestedLoopsWhile()"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
