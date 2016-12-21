@@ -134,5 +134,29 @@ class ViewController: UIViewController {
         } while (i<n)
     return(1)
     }
-    
+    //
+    // exclusive-oring strings of different lengths
+    //
+    func strxor(a: String, b: String) -> String {
+        var c:String = ""
+        var asub=a
+        var bsub=b
+        var n=0
+        
+        if a.characters.count > b.characters.count {
+            n = b.characters.count
+            let stop=a.index(a.startIndex, offsetBy:n-1)
+            asub = a.substring(to:stop)
+        }
+        else {
+            n = a.characters.count
+            let stop=b.index(b.startIndex, offsetBy:n-1)
+            bsub=b.substring(to:stop)
+        }
+        for (x,y) in zip(asub.unicodeScalars,bsub.unicodeScalars) {
+                c.append(Character(UnicodeScalar(x.value ^ y.value)!) )
+        }
+        return c
+        
+    }
 }
